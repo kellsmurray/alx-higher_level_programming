@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-for ones in range(0, 10):
-    for tens in range(ones + 1, 10):
-        if ones == 8 and tens == 9:
-            print("{}{}".format(ones, tens))
+for fd in range(10):
+    for sd in range(fd + 1, 10):
+        if fd == 8 and sd == 9:
+            print("{}{}".format(fd, sd))
         else:
-            print("{}{}".format(ones, tens), end=", ")
+            print("{}{}".format(fd, sd), end=", ")
