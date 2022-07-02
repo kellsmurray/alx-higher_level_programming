@@ -6,4 +6,4 @@ for char in range(122, 96, -1):
         letter = char
     else:
         letter = char - 32
-print("{}".format(chr(letter)), end='')
+    print("{}".format(chr(letter)), end='')
