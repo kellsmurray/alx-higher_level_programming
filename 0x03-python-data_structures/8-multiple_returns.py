@@ -6,4 +6,4 @@ def multiple_returns(sentence):
     else:
         fc = sentence[0]
     tup = (len(sentence), fc)
-    print("{}".format(tup))
+    return (tup)
