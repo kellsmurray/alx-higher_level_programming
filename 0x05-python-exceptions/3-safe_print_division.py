@@ -7,4 +7,4 @@ def safe_print_division(a, b):
         quot = None
     finally:
         print("Inside result: {}".format(quot))
-        print("{:d} / {:d} = {}".format(a, b, quot))
+        return (quot)
