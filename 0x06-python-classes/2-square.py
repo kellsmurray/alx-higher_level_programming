@@ -11,7 +11,9 @@ class Square:
     """A square class"""
     def ___init___(self, size=0):
         """Class Instance"""
-        if type(size) is not int:
+        self.__size = size
+
+        if not isinstance(size, int):
             raise TypeError("size must be an integer")
         elif size < 0:
             raise ValueError("size must be >= 0")
